@@ -10,7 +10,7 @@ public class Spirites {
     int x;
     int y;
 
-    Spirites(int a,int b,String img){
+    public Spirites(int a,int b,String img){
         init_Spirites(a,b,img);
     }
 
