@@ -22,4 +22,12 @@
         android:text="Exit"
         android:textStyle="bold"
         android:onClick="closeApp"/>
+
+    <View
+        android:id="@+id/clickable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/exit_button"
+        android:onClick="jumpSequence"/>
+
 </RelativeLayout>

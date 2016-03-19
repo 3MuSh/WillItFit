@@ -20,4 +20,10 @@ public class NewGame extends AppCompatActivity {
         System.exit(0);
     }
 
+    public void jumpSequence(View view)
+    {
+        // TODO ball
+        // TODO jumping sequence
+    }
+
 }
