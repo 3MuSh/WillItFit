@@ -77,13 +77,19 @@
             android:textAlignment="center"
             android:text="Created by"/>
 
-        <ImageView
-            android:id="@+id/studio_web_page_image_view"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="32dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/grouplogo"
-            android:onClick=""/>
-
+            android:layout_height="32dp">
+            <ImageView
+                android:id="@+id/studio_web_page_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/grouplogo" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="open3MushWebPage" />
+        </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>

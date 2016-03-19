@@ -10,7 +10,7 @@
     tools:context="com.example.android.willitfit.NewGame"
     android:background="@color/colorAccent">
 
-    <!-- TODO all layout according to java backend -->
+    <!-- TODO all layout according to java backend, existing button is only for testing -->
 
     <Button
         android:id="@+id/exit_button"

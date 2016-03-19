@@ -1,6 +1,7 @@
 package com.example.android.willitfit;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,4 +19,5 @@ public class NewGame extends AppCompatActivity {
         MainActivity.mainActivity.finish();
         System.exit(0);
     }
+
 }
